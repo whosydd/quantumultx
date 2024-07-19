@@ -1,0 +1,13 @@
+# OneDrive
+host-suffix, onedrive.com, direct
+host-suffix, live.com, direct
+host-suffix, mesh.com, direct
+host-suffix, sfx.ms, direct
+host-suffix, microsoft.com, direct
+host-suffix, office.com, direct
+host-suffix, fabric.io, direct
+host-suffix, sharepoint.com, direct
+
+# 字典
+host-suffix, sequoia.apple.com, direct
+host-suffix, seed-sequoia.siri.apple.com, direct
