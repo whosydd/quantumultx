@@ -8,6 +8,20 @@ host-suffix, office.com, direct
 host-suffix, fabric.io, direct
 host-suffix, sharepoint.com, direct
 
+# OneDrive & Sharepoint (其他分享)
+user-agent,OneDrive*,direct
+user-agent,OneDriveiOSApp*,direct
+host-keyword,Onedrive,direct
+host-wildcard,Onedrive.*,direct
+host-keyword,skydrive,direct
+host-keyword,1drv,direct
+host-keyword,sharepoint,direct
+host-suffix,sharepoint.com,direct
+host-suffix,sharepoint.cn,direct
+host-suffix,sharepointonline.com,direct
+host-suffix,svc.ms,direct
+
 # 字典
 host-suffix, sequoia.apple.com, direct
 host-suffix, seed-sequoia.siri.apple.com, direct
+
