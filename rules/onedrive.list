@@ -1,27 +1,12 @@
-# OneDrive
-host-suffix, onedrive.com, direct
-host-suffix, live.com, direct
-host-suffix, mesh.com, direct
-host-suffix, sfx.ms, direct
-host-suffix, microsoft.com, direct
-host-suffix, office.com, direct
-host-suffix, fabric.io, direct
-host-suffix, sharepoint.com, direct
-
-# OneDrive & Sharepoint (其他分享)
-user-agent,OneDrive*,direct
-user-agent,OneDriveiOSApp*,direct
-host-keyword,Onedrive,direct
-host-wildcard,Onedrive.*,direct
-host-keyword,skydrive,direct
-host-keyword,1drv,direct
-host-keyword,sharepoint,direct
-host-suffix,sharepoint.com,direct
-host-suffix,sharepoint.cn,direct
-host-suffix,sharepointonline.com,direct
-host-suffix,svc.ms,direct
-
-# 字典
-host-suffix, sequoia.apple.com, direct
-host-suffix, seed-sequoia.siri.apple.com, direct
-
+# OneDrive & Sharepoint
+user-agent,OneDrive*,OneDrive
+user-agent,OneDriveiOSApp*,OneDrive
+host-keyword,Onedrive,OneDrive
+host-wildcard,Onedrive.*,OneDrive
+host-keyword,skydrive,OneDrive
+host-keyword,1drv,OneDrive
+host-keyword,sharepoint,OneDrive
+host-suffix,sharepoint.com,OneDrive
+host-suffix,sharepoint.cn,OneDrive
+host-suffix,sharepointonline.com,OneDrive
+host-suffix,svc.ms,OneDrive
